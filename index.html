@@ -277,6 +277,23 @@
                 <input class="form-input" type="email" id="email" name="email" placeholder="jane@acmecorp.com" required>
               </div>
               <div class="form-group">
+                <label class="form-label" for="phone">Phone Number</label>
+                <input class="form-input" type="tel" id="phone" name="phone" placeholder="(617) 555-0100">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="planType">Retirement Plan Type</label>
+                <select class="form-input form-select" id="planType" name="planType">
+                  <option value="" disabled selected>Select plan type</option>
+                  <option value="401k">401(k)</option>
+                  <option value="403b">403(b)</option>
+                  <option value="cash-balance">Cash Balance</option>
+                  <option value="profit-sharing">Profit Sharing</option>
+                  <option value="safe-harbor">Safe Harbor</option>
+                </select>
+              </div>
+              <div class="form-group">
                 <label class="form-label" for="participants">Plan Participants (approx.)</label>
                 <input class="form-input" type="text" id="participants" name="participants" placeholder="e.g. 150">
               </div>
